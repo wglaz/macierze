@@ -52,7 +52,7 @@ int main()
             printf("% d\t", macierzB[i][p]);// wyswietlanie macierzy wierszami
         }
     }
-    printf("\n\n");
+    printf("\n");
     printf("pierwsza macierz; \n");
     for (i=0;i<n; i++)
     {
@@ -60,6 +60,7 @@ int main()
         for(p=0; p<m; p++)
             printf(" %d\t", macierzA[i][p]);
     }
+    printf("\n");
 
     printf("druga macierz; \n");
     for (i=0;i<j; i++) {
